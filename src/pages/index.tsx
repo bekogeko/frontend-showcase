@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import { Link, Stack } from '@mui/material'
 
 // ** Next Imports
 import { NextPage } from 'next'
@@ -9,6 +9,7 @@ import ProgressByProject from 'src/components/ProgressByProject'
 const Home: NextPage = () => {
   return (
     <Stack direction='column' gap='24px' padding={'24px'}>
+      <Link href='/plans'>Plans</Link>
       <ProjectList />
       <ProgressByProject />
     </Stack>

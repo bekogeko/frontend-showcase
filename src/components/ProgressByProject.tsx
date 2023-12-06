@@ -1,4 +1,4 @@
-import { Box, Chip, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography } from '@mui/material'
+import { Chip, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography } from '@mui/material'
 import MoreOptionsDialog from './dialogs/OptionsDialog'
 import { CourseOption, CourseSelection, AddCourseButton } from './CourseRadio'
 import { useState } from 'react'
